@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laura.lalica.BlankFragment1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/axjik"
+            android:tint="@color/colorPrimary5"
+            android:id="@+id/button5"
+            android:background="@null"
+            android:onClick="onClick"
+            android:text="FILTER 5"
+            android:textColor="#cebdc9" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/axjik"
+            android:tint="@color/colorPrimary6"
+            android:background="@null"
+            android:id="@+id/button6"
+            android:onClick="onClick"
+            android:text="FILTER 6"
+            android:textColor="#b3e9e7" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/axjik"
+            android:tint="@color/colorPrimary7"
+            android:background="@null"
+            android:id="@+id/button7"
+            android:onClick="onClick"
+            android:text="FILTER 7"
+            android:textColor="#22c20d16" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/axjik"
+            android:tint="@color/colorPrimary8"
+            android:id="@+id/button8"
+            android:background="@null"
+            android:onClick="onClick"
+            android:text="FILTER 8"
+            android:textColor="#781e21d2" />
+    </LinearLayout>
+
+</FrameLayout>

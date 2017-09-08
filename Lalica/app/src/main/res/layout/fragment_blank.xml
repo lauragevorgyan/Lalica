@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:context="com.example.laura.lalica.BlankFragment"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="1.23">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@null"
+            android:onClick="onClick"
+            android:src="@drawable/axjik"
+            android:text="FILTER 1"
+            android:id="@+id/button"
+            android:tint="@color/colorPrimary"/>
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@null"
+            android:id="@+id/button2"
+            android:onClick="onClick"
+            android:text="FILTER 2"
+            android:src="@drawable/axjik"
+            android:tint="@color/colorPrimary2" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/axjik"
+            android:background="@null"
+            android:id="@+id/button3"
+            android:onClick="onClick"
+            android:text="FILTER 3"
+            android:tint="@color/colorPrimary3" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/axjik"
+            android:id="@+id/button4"
+            android:background="@null"
+            android:onClick="onClick"
+            android:text="FILTER 4"
+            android:tint="@color/colorPrimary4" />
+    </LinearLayout>
+    </LinearLayout>
